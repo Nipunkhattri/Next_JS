@@ -2,8 +2,8 @@
 
 ## Features
 
-1) Order List Page:
-2) Order Details Page:
+1) Order List Page
+2) Order Details Page
 3) Inventory Management
 4) Adding Items
 5) Deleting Items
