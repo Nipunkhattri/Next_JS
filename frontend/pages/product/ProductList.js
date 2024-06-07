@@ -7,7 +7,7 @@ import InventoryList from './InventoryList';
 import AddItemForm from './AddItemForm';
 import { useRouter } from 'next/router';
 
-function product_listing() {
+function ProductList() {
   const dispatch = useDispatch();
   const router = useRouter();
   // getting the data from redux store
@@ -37,7 +37,7 @@ function product_listing() {
   }
 
   const handleClick = () => {
-    router.push('/order/order_listing');
+    router.push('/order/OrderListing');
   };
 
   // Function to filter items based on name
@@ -65,4 +65,4 @@ function product_listing() {
   );
 }
 
-export default product_listing;
+export default ProductList;

@@ -3,7 +3,7 @@ import OrderDetails from './OrderDetails.js';
 import { useDispatch, useSelector } from 'react-redux';
 import { completeOrder } from '@/redux/features/Slice';
 
-const order_listing = () => {
+const OrderListing = () => {
   const dispatch = useDispatch();
   const orders = useSelector(state => state.dummy.orders);
 
@@ -78,4 +78,4 @@ const order_listing = () => {
   );
 };
 
-export default order_listing;
+export default OrderListing;
