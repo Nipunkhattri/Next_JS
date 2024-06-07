@@ -19,6 +19,5 @@
 <li>Run cmd (npm install)</li>
 <li>Run cmd (npm run dev )</li>
 </ul>
-4 Go to http://localhost:3000/product/product_listing
+4 Go to http://localhost:3000/product/ProductList
 
-!!Live!!
