@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { addItem, deleteItem, editItem } from '../../redux/features/Slice'; 
 import { dummyData } from '../../dummydata';
-import FilterOptions from '../component/FilterOptions';
-import InventoryList from '../component/InventoryList';
-import AddItemForm from '../component/AddItemForm';
+import FilterOptions from '../../components/FilterOptions';
+import InventoryList from '../../components/InventoryList';
+import AddItemForm from '../../components/AddItemForm';
 import { useRouter } from 'next/router';
 
 function ProductList() {
