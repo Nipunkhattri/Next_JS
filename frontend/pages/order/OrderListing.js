@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import OrderDetails from '../../component/OrderDetails.js';
+import OrderDetails from '../component/OrderDetails.js';
 import { useDispatch, useSelector } from 'react-redux';
 import { completeOrder } from '@/redux/features/Slice';
 
